@@ -7,6 +7,9 @@
     <title>Fashion-World Login Page</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="icon" href="./images/womenshop.png" type="Fashion icon">
+    <style>
+       
+    </style>
 
 </head>
 

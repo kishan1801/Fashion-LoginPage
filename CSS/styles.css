@@ -1,13 +1,16 @@
         body {
-            background-color: transparent;
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100vh;  
+            background-image: url("../images/fash2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+          
+            
         }
         .container {
             background-color: #fff;
@@ -36,5 +39,11 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        .error{
+            color: red;
+            font-weight: 700;
+            font-size: 1.2rem;
         }
     

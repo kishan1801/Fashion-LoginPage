@@ -39,10 +39,10 @@ if (mysqli_num_rows($result) === 1) {
         header("Location: home.php");
         exit();
     } else {
-        header("Location: index.php?error=Incorect User Name or Password");
+        header("Location: index.php?error=Incorect User Name or Password!");
         exit();
     }
 } else {
-    header("Location: index.php?error=User Does not exists");
+    header("Location: index.php?error=User Does not exists!");
     exit();
 }
